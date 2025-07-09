@@ -3,24 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>justaroundthecorner</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             background-color: #ffffff;
             display: flex;
             justify-content: center;
             align-items: center;
-            min-height: 100vh;
+            height: 100vh;
             margin: 0;
             font-family: sans-serif;
         }
         audio {
-            width: 150px;
-            height: 30px;
+            width: 90%;
+            max-width: 320px;
+            height: 36px;
         }
     </style>
 </head>
 <body>
-    <audio controls autoplay>
+    <audio controls preload="auto">
         <source src="JUSTAROUNDTHECORNER.mp3" type="audio/mp3">
         Dein Browser unterstützt kein Audio-Element.
     </audio>
